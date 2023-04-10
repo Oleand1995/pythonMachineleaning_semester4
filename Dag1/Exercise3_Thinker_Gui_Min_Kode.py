@@ -2,7 +2,7 @@ from tkinter import *
 
 #Funktioner.
 def changeText():
-    input = entry.get();
+    input = entry.get()
     lbl.configure(text=input)
     entry.delete(0, END)
 
@@ -46,5 +46,3 @@ entry.pack(side=LEFT, padx=10, pady=10)
 
 
 window.mainloop()
-
-#Done
